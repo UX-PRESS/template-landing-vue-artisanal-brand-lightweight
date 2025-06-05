@@ -1,7 +1,8 @@
 <template>
-  <section class="bg-beige text-moss py-16 px-4 md:px-8">
+  <section class="pt-20 bg-beige text-moss py-16 px-4 md:px-8">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-2xl md:text-3xl font-serif text-wood mb-4">About Us</h2>
+    <img src="/src/assets/about1.png" alt="Siobhan and Aisling" class=" h-50 w-50 rounded-full mx-auto mb-6">
+      <h2 class="text-2xl md:text-3xl font-serif text-wood mb-6">About Us</h2>
       <p class="text-lg font-sans text-moss mb-8 italic">
         Crafted by nature. Inspired by community.
       </p>
