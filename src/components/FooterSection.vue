@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-wood text-beige pt-12 pb-8 px-4">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+  <footer class="bg-bege text-wood pt-12 pb-8 px-4">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm ">
 
       <!-- Logo / Sobre -->
       <div class="md:col-span-1 space-y-2">
@@ -24,9 +24,9 @@
       <div>
         <h4 class="font-semibold mb-2 uppercase tracking-wide">Contact</h4>
         <ul class="space-y-1">
-          <li>📍 27 Main Street, Kinsale</li>
-          <li>☎️ +353 (0)21 555 1234</li>
-          <li>✉️ hello@willowandwild.ie</li>
+          <li>27 Main Street, Kinsale</li>
+          <li>+353 (0)21 555 1234</li>
+          <li>hello@willowandwild.ie</li>
         </ul>
       </div>
 
@@ -54,9 +54,21 @@
 </template>
 
 <script setup>
-// Nenhum JS necessário neste caso.
 </script>
 
 <style scoped>
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+.text-moss {
+  color: #3C5F45;
+}
+.bg-moss {
+  background-color: #3C5F45;
+}
+.text-wood {
+  color: #6B4F3B;
+}
+.bg-bege {
+  background-color: #F5F1EA;
+}
+
 </style>

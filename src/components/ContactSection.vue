@@ -12,25 +12,23 @@
         <!-- Contact Info -->
         <div>
           <ul class="space-y-4 text-base">
-            <li>📍 27 Main Street, Kinsale, County Cork, Ireland</li>
-            <li>☎️ +353 (0)21 555 1234</li>
-            <li>✉️ hello@willowandwild.ie</li>
+            <li>27 Main Street, Kinsale, County Cork, Ireland</li>
+            <li>+353 (0)21 555 1234</li>
+            <li>hello@willowandwild.ie</li>
           </ul>
 
           <!-- Social Links -->
           <div class="flex space-x-4 mt-6">
-            <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="hover:text-wood">📷</a>
-            <a href="https://pinterest.com" target="_blank" aria-label="Pinterest" class="hover:text-wood">📌</a>
-            <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="hover:text-wood">📘</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="fab fa-instagram"></a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest" class="fa fa-pinterest"></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="fab fa-facebook"></a>
           </div>
 
           <!-- Map -->
           <div class="mt-8">
-            <iframe
-              class="w-full h-64 rounded-2xl"
+            <iframe class="w-full h-64 rounded-2xl"
               src="https://www.google.com/maps?q=27+Main+Street,+Kinsale,+Ireland&output=embed"
-              allowfullscreen
-              loading="lazy">
+              allowfullscreen loading="lazy">
             </iframe>
           </div>
         </div>
@@ -61,3 +59,16 @@
 <script setup>
 
 </script>
+
+<style scoped>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+.text-moss {
+  color: #3C5F45;
+}
+.bg-moss {
+  background-color: #3C5F45;
+}
+.text-wood {
+  color: #6B4F3B;
+}
+</style>

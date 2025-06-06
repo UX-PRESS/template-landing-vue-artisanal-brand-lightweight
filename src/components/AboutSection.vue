@@ -1,7 +1,7 @@
 <template>
   <section class="pt-20 bg-beige text-moss py-16 px-4 md:px-8">
     <div class="max-w-4xl mx-auto text-center">
-    <img src="/src/assets/about1.png" alt="Siobhan and Aisling" class=" h-50 w-50 rounded-full mx-auto mb-6">
+    <img src="/src/assets/about12.svg" alt="Siobhan and Aisling" class=" h-50 w-50 rounded-full mx-auto mb-6">
       <h2 class="text-2xl md:text-3xl font-serif text-wood mb-6">About Us</h2>
       <p class="text-lg font-sans text-moss mb-8 italic">
         Crafted by nature. Inspired by community.
@@ -24,5 +24,14 @@
 </script>
 
 <style scoped>
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+.text-moss {
+  color: #3C5F45;
+}
+.bg-moss {
+  background-color: #3C5F45;
+}
+.text-wood {
+  color: #6B4F3B;
+}
 </style>
