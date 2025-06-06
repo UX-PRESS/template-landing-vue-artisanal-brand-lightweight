@@ -1,6 +1,6 @@
 <!--src/components/Header.vue ---->  
 <template>
-  <header class="fixed top-0 left-0 w-full z-50 bg-beige/80 backdrop-blur-md shadow-sm">
+  <header class="fixed top-0 left-0 w-full z-50 bg-beige/80 backdrop-blur-md shadow-sm ">
     <nav class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
       <!-- Logo -->
       <div class="flex items-center space-x-2">
@@ -9,17 +9,18 @@
       </div>
 
       <!-- Desktop Navigation -->
-      <div class="hidden md:flex gap-6 text-wood font-sans font-medium">
-        <a href="#hero" class="hover:text-wood transition">Home</a>
-        <a href="#about" class="hover:text-wood transition">About</a>
-        <a href="#products" class="hover:text-wood transition">Products</a>
-        <a href="#contact" class="hover:text-wood transition">Contact</a>
+      <div class="hidden md:flex gap-6 text-wood font-sans font-medium  ">
+        <a href="#hero" class="hover:text-wood transition pt-3">Home</a> 
+        <a href="#about" class="hover:text-wood transition pt-3">About</a>
+        <a href="#products" class="hover:text-wood transition pt-3">Products</a>
+        <b></b>
+        <a href="#contact" class="bg-moss text-white px-3 py-3 rounded-xl font-sans hover:bg-moss/90 transition">
+         Conect With Us
+      </a>
       </div>
    
       <!-- CTA  -->
-      <a href="#contact" class="bg-moss text-white px-6 py-3 rounded-xl font-sans hover:bg-moss/90 transition">
-        Shop Handmade
-      </a>
+      
    
       <!-- Mobile Menu Toggle -->
       <button @click="isOpen = !isOpen" class="md:hidden text-moss">
@@ -36,7 +37,6 @@
       <a href="#hero" class="hover:text-wood transition">Home</a>
       <a href="#about" class="hover:text-wood transition">About</a>
       <a href="#products" class="hover:text-wood transition">Products</a>
-      <a href="#contact" class="hover:text-wood transition">Contact</a>
     </div>
 
 </header>

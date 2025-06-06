@@ -1,8 +1,9 @@
 <template>
-  <section class="pt-20 bg-beige text-moss py-16 px-4 md:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-    <img src="/src/assets/about12.svg" alt="Siobhan and Aisling" class=" h-50 w-50 rounded-full mx-auto mb-6">
-      <h2 class="text-2xl md:text-3xl font-serif text-wood mb-6">About Us</h2>
+  <section class="pt-20 bg-beige text-moss py-16 py-20 px-4">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <img src="/src/assets/about12.svg" alt="Siobhan and Aisling" class=" rounded-2xl  w-full h-auto object-cover">
+    <div>  
+    <h2 class="text-3xl md:text-4xl font-serif text-wood mb-6">About Us</h2>
       <p class="text-lg font-sans text-moss mb-8 italic">
         Crafted by nature. Inspired by community.
       </p>
@@ -15,6 +16,7 @@
         We believe in the power of place, people, and purpose — and we hope to share that with every candle lit,
         every sip of tea, and every gift wrapped with love.
       </p>
+      </div>
     </div>
   </section>
 </template>

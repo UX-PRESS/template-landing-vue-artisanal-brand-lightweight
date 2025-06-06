@@ -14,15 +14,14 @@
         Crafting Nature’s Essence
       </h1>
       <p class="text-lg md:text-xl font-sans text-wood mb-6 font-bold">
-        Discover unique artisanal products and experiences inspired by the wild beauty of the Irish
-        south.
-      </p>
+  Discover unique <span class="text-black font-bold">artisanal products</span> and experiences inspired by the wild beauty of the <span class="text-black font-bold">Irish south</span>.
+</p>
+
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <a
           href="#contact"
-          class="bg-moss text-white px-6 py-3 rounded-xl font-sans hover:bg-moss/90 transition"
-        >
-          Shop Handmade
+          class="bg-moss text-white px-6 py-3 rounded-xl font-sans hover:bg-moss/90 transition">
+          Conect Us
         </a>
       </div>
     </div>
@@ -43,6 +42,6 @@ import bgImage from '@/assets/natura.jpg'
   background-color: #3C5F45;
 }
 .text-wood {
-  color: #6B4F3B;
+  color:#44403C					;
 }
 </style>

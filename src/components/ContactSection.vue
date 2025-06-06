@@ -2,10 +2,11 @@
   <section class="bg-beige text-moss py-20 px-4">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-serif text-wood text-center mb-4">
-        We’d love to hear from you.
+        Let’s connect over something beautifully made.
       </h2>
       <p class="text-lg md:text-xl text-center mb-10">
-        Have a question, want to collaborate, or planning a visit to Kinsale? Reach out — we’re always happy to connect.
+        Whether you're curious about a workshop, interested in stocking our pieces, or simply dreaming of a trip to Kinsale — we’d love to hear from you.
+        Drop us a message and we’ll get back to you with care.
       </p>
 
       <div class="grid md:grid-cols-2 gap-10">
@@ -20,7 +21,7 @@
           <!-- Social Links -->
           <div class="flex space-x-4 mt-6">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="fab fa-instagram"></a>
-            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest" class="fa fa-pinterest"></a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest" class="fa-brands fa-pinterest"></a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="fab fa-facebook"></a>
           </div>
 
@@ -34,7 +35,7 @@
         </div>
 
         <!-- Contact Form -->
-        <form class="space-y-4">
+        <form class="space-y-4 pt-13">
           <div>
             <label class="block text-sm font-medium">Name</label>
             <input type="text" class="w-full border border-moss p-2 rounded-md" required />
@@ -47,7 +48,7 @@
             <label class="block text-sm font-medium">Message</label>
             <textarea class="w-full border border-moss p-2 rounded-md" rows="5" required></textarea>
           </div>
-          <button type="submit" class="bg-wood text-beige px-6 py-2 rounded-md hover:bg-moss transition">
+          <button type="submit" class="bg-moss text-white px-6 py-3 rounded-xl font-sans hover:bg-moss/90 transition">
             Send Message
           </button>
         </form>
@@ -70,5 +71,8 @@
 }
 .text-wood {
   color: #6B4F3B;
+}
+.bg-bege {
+  background-color: #F5F1EA;
 }
 </style>
