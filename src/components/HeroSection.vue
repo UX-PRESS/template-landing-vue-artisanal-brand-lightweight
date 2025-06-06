@@ -13,7 +13,7 @@
       <h1 class="text-4xl md:text-5xl font-serif text-moss mb-4">
         Crafting Nature’s Essence
       </h1>
-      <p class="text-lg md:text-xl font-sans text-wood mb-6">
+      <p class="text-lg md:text-xl font-sans text-wood mb-6 font-bold">
         Discover unique artisanal products and experiences inspired by the wild beauty of the Irish
         south.
       </p>
